@@ -18,6 +18,7 @@ public class Main {
     }
     
     public static LinkedList<Integer> getRandomNumbers(LinkedList<Integer> linkedList) {
+        
             Random randNumbers = new Random();
 
             for(int i = 0; i < 20; i++) {
@@ -30,6 +31,7 @@ public class Main {
         }
 
     public static ArrayList<Integer> getRandomNumbers(ArrayList<Integer> arrList) {
+        
         Random randNumbers = new Random();
 
         for(int i = 0; i < 20; i++) {
@@ -42,7 +44,7 @@ public class Main {
     }
 
     public static int[] getRandNumbers(int[] numbersArray) {
-
+        
         Random randomNumbers = new Random();
 
         for(int i = 0; i < numbersArray.length; i++) {
@@ -53,6 +55,5 @@ public class Main {
 
         return numbersArray;
     }
-
 
 }
